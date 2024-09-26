@@ -1,0 +1,13 @@
+CREATE TABLE users(
+    Id int PRIMARY KEY, 
+    secret_identity varchar(255), 
+    planet_of_origin varchar(255), 
+    superpower varchar(255),
+    number_of_cats_owned int,
+    coffee_or_tea ENUM("coffee", "tea"),
+    favorite_junk_food varchar(255),
+    zombie_survival_rating int,
+    spirit_animal varchar(255),
+    number_of_hours_wasted_on_tiktok int,
+    preferred_weather_condition varchar(255)
+);
